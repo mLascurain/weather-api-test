@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2rem;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background-color: #2f2f2f;
+  width: 250px;
+  box-shadow:
+    0 4px 8px 0 rgba(80, 80, 80, 0.2),
+    0 6px 20px 0 rgba(80, 80, 80, 0.19);
+}
+
+.container input {
+  margin-top: 8px;
+}
+
+.container-data {
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+}
