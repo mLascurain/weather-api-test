@@ -1,5 +1,5 @@
 const consultar = () => {
-  let userInput = prompt("Por favor, ingresa tu ubicación:");
+  let userInput = prompt("Please enter a location name");
   console.log(userInput);
   const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${userInput}?key=9NVXLYRH5WCYYWHN75UX3B2GZ`;
   llamarApi(url);
