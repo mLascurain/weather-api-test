@@ -1,3 +1,3 @@
 ## Weather Api Test
 
-testing async await
+testing async await with fetch
