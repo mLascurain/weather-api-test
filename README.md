@@ -1,4 +1,4 @@
 ## Weather Api Test
 
-testing async await with fetch
+testing async await with fetch <br>
 simple weather api implementation
